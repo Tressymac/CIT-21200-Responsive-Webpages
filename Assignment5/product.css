@@ -1,0 +1,191 @@
+
+  @media screen and (min-width: 800px) {
+        body{
+            background-color: rgb(68, 30, 68);
+
+        }
+
+        header{
+            background-color: rgba(195, 0, 255, 0.2);
+            text-align: left;
+            height: 80px;
+            width: 250px;
+            z-index: 1;
+        }
+
+                #nav {
+                font-family:Arial, Helvetica, sans-serif;
+                float: left;
+                
+                }
+                a:visited {
+                    color: rgb(250, 250, 250);
+                }
+                a:hover{
+                    color: rgb(115, 118, 119);
+                }
+                a:active {
+                    color: rgb(33, 37, 41);
+                }
+                
+                
+                header ul {
+                    list-style-type: none;
+                    margin: 0;
+                    padding: 0;
+                    overflow: hidden;
+                    }
+                    
+                    li {
+                    float: left;
+                    } 
+                    
+                    header ul li a {
+                    display: inline-block;
+                    color: rgb(0, 0, 0);
+                    text-align: center;
+                    padding: 25px;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    letter-spacing: 2px;
+                    }
+                    
+                    header ul li a :hover:not(.active) {
+                    background-color: rgb(53, 26, 46);
+                    }
+
+
+
+                            .listing {
+                            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                            position: absolute;
+                            top: 20%;
+                            left: 20%;
+                            }
+                        
+
+                                    .Cats{
+                                        width: 250px;
+                                    }
+
+                                    .picture{
+                                        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                        position: absolute;
+                                        top: 30%;
+                                        width: 250px;
+                                        margin: 8px;
+                                    }
+
+                                    .secondPicture{
+                                        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                        position: absolute;
+                                        top: 30%;
+                                        left: 75%;
+                                        width: 250px;
+                                        margin: 8px;
+                                    }
+
+                                            footer{
+                                                width: 250px;
+                                                margin: 8px;
+                                                position: absolute;
+                                                top: 128%;
+                                                left: 40%;
+                                                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                            }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+        @media screen and (max-width: 800px) {
+
+        body{
+            background-color: rgb(108, 165, 197);
+
+        }
+
+        header{
+            background-color: rgba(195, 0, 255, 0.2);
+            text-align: left;
+            height: 80px;
+            width: 250px;
+            z-index: 1;
+        }
+
+                #nav {
+                font-family:Arial, Helvetica, sans-serif;
+                float: left;
+                
+                }
+                a:visited {
+                    color: rgb(250, 250, 250);
+                }
+                a:hover{
+                    color: rgb(115, 118, 119);
+                }
+                a:active {
+                    color: rgb(33, 37, 41);
+                }
+                
+                
+                header ul {
+                    list-style-type: none;
+                    margin: 0;
+                    padding: 0;
+                    overflow: hidden;
+                    }
+                    
+                    li {
+                    float: left;
+                    } 
+                    
+                    header ul li a {
+                    display: inline-block;
+                    color: rgb(0, 0, 0);
+                    text-align: center;
+                    padding: 25px;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    letter-spacing: 2px;
+                    }
+                    
+                    header ul li a :hover:not(.active) {
+                    background-color: rgb(53, 26, 46);
+                    }
+
+
+
+                            .listing {
+                            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                            position: absolute;
+                            }
+                        
+
+                                    .Cats{
+                                        position: absolute;
+                                        width: 100%;
+                                        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                        margin: 8px;
+                                        top: 30%;
+
+                                    }
+
+                                            footer{
+                                                width: 100%;
+                                                margin: 8px;
+                                                position: absolute;
+                                                top: 237%;
+                                                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                            }
+
+
+        }

@@ -1,0 +1,199 @@
+
+  @media screen and (min-width: 800px) {
+
+          .Intro {
+              font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+              font-size: larger;
+              color: rgb(255, 255, 255);
+              position: absolute;
+              bottom: 75%;
+              left: 40%;
+              width: 250px;
+              margin: 8px;
+          }
+
+          body{
+              background-color: rgb(92, 78, 92);
+
+          }
+
+          header{
+              background-color: rgb(255, 255, 255, 0.2);
+              text-align: left;
+              height: 80px;
+              width: 250px;
+              z-index: 1;
+          }
+
+                .container{
+                  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                  color: rgb(0, 0, 0);
+                  position: absolute;
+                  width: 250px;
+                  margin: 8px;
+                  top: 25%;
+                }
+                  .mission{
+                    position: relative;
+                    left: 260%;
+                  }
+                    .firstP{
+                      position: relative;
+                      left: 130%;
+                      
+                    }
+                  .secondP{
+                    position: relative;
+                    left: 340%;
+                    bottom: 140px;
+                  }
+
+
+                          #nav {
+                            font-family:Arial, Helvetica, sans-serif;
+                            float: left;
+                            
+                            }
+                            a:visited {
+                                color: rgb(0, 0, 0);
+                            }
+                            a:hover{
+                                color: rgb(180, 185, 187);
+                            }
+                            a:active {
+                                color: rgb(64, 65, 66);
+                            }
+                            
+                            
+                            header ul {
+                                list-style-type: none;
+                                margin: 0;
+                                padding: 0;
+                                overflow: hidden;
+                              }
+                              
+                              li {
+                                float: left;
+                              } 
+                              
+                              header ul li a {
+                                display: inline-block;
+                                color: rgb(255, 250, 250);
+                                text-align: center;
+                                padding: 25px;
+                                text-decoration: none;
+                                text-transform: uppercase;
+                                letter-spacing: 2px;
+                              }
+
+                                      footer{
+                                        width: 250px;
+                                        margin: 8px;
+                                        position: absolute;
+                                        top: 83%;
+                                        left: 40%;
+                                        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                      }
+                                          h3{
+                                            position: relative;
+                                            left: 29%;
+                                          }
+                            
+
+  }
+
+
+        @media screen and (max-width: 800px) {
+            header{
+              width: 100%;
+            }
+
+            body{
+              background-color: rgb(89, 126, 180);
+          }
+            .Intro{
+              width: 100%;
+              font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+              font-size: larger;
+              color: rgb(255, 255, 255);
+              position: absolute;
+              bottom: 75%;
+              margin: 8px;
+              left: 30%;
+            }
+
+            footer{
+              width: 100%;
+            }
+
+            .container{
+              font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+              color: rgb(0, 0, 0);
+              position: absolute;
+              width: 100%;
+              top: 25%;
+            }
+              .mission{
+                position: relative;
+              }
+                .firstP{
+                  position: relative;
+                  margin: 8px;
+                  
+                }
+              .secondP{
+                position: relative;
+
+                margin: 8px;
+              }
+
+              footer{
+                width: 100%;
+                margin: 8px;
+                position: absolute;
+                top: 83%;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+              }
+                  h3{
+                    position: relative;
+                    left: 29%;
+                  }
+
+                                    #nav {
+                                      font-family:Arial, Helvetica, sans-serif;
+                                      float: left;
+                                      
+                                      }
+                                      a:visited {
+                                          color: rgb(0, 0, 0);
+                                      }
+                                      a:hover{
+                                          color: rgb(180, 185, 187);
+                                      }
+                                      a:active {
+                                          color: rgb(64, 65, 66);
+                                      }
+                                      
+                                      
+                                      header ul {
+                                          list-style-type: none;
+                                          margin: 0;
+                                          padding: 0;
+                                          overflow: hidden;
+                                        }
+                                        
+                                        li {
+                                          float: left;
+                                        } 
+                                        
+                                        header ul li a {
+                                          display: inline-block;
+                                          color: rgb(255, 250, 250);
+                                          text-align: center;
+                                          padding: 25px;
+                                          text-decoration: none;
+                                          text-transform: uppercase;
+                                          letter-spacing: 2px;
+                                        }
+
+        }
